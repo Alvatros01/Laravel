@@ -86,7 +86,7 @@
             <p>Energetic and motivated student pursuing a degree in Information Technology, seeking an internship to gain practical experience and apply my academic knowledge in a real-world setting.</p>
 
             <h2>Personal Information</h2>
-            <p><strong>Date of Birth:</strong> February 01, 2003</p>
+            <p><strong>Date of Birth:</strong> {{date('F d, Y', strtotime($info->dateofbirth))}}</p>
             <p><strong>Birthplace:</strong> Bustos, Bulacan</p>
             <p><strong>Sex:</strong> Male</p>
             <p><strong>Civil Status:</strong> Single</p>
